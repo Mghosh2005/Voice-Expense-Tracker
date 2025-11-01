@@ -7,3 +7,26 @@ The LLM module will act as the brain of the expense tracker, handling entity ext
 Technologies used include Python, transformers-based NLP models, and prompt-driven categorization logic. Future versions may integrate speech-to-text (STT) and text-to-speech (TTS) modules to support full voice interaction.
 
 The folder structure includes a dedicated llm_handler.py for entity extraction and categorization logic, along with placeholders for future modules like stt_tts.py and voice_cli.py. The project aims to deliver a smart, context-aware conversational module that can be extended into a complete expense tracking system with analytics and visualization in later phases.
+FOLDER STRUCTURE:
+voice_expense_tracker/
+├─ manage.py
+├─ requirements.txt
+├─ README.md
+├─ .env.example
+├─ voice_tracker/
+│  ├─ __init__.py
+│  ├─ settings.py
+│  ├─ urls.py
+│  └─ wsgi.py
+└─ expenses/
+   ├─ __init__.py
+   ├─ admin.py
+   ├─ apps.py
+   ├─ models.py
+   ├─ serializers.py
+   ├─ views.py
+   ├─ urls.py
+   ├─ llm_handler.py
+   ├─ stt_tts.py
+   ├─ voice_cli.py
+   └─ migrations/
