@@ -30,3 +30,14 @@ voice_expense_tracker/
    ├─ stt_tts.py
    ├─ voice_cli.py
    └─ migrations/
+
+# Voice Expense Tracker (Voice + SMS + Email)
+
+### Features
+- Voice logging using SpeechRecognition + gTTS
+- Smart NLP-based extraction of amount/category
+- SMS parsing (Paytm, Google Pay)
+- Gmail parsing for receipts
+- Monthly rollup summaries
+
+### Setup
